@@ -22,8 +22,12 @@ try :
     user_age = int(input("Age: "))
     income = 20000
     risk = income/user_age
-    print("Risk is: " , risk)
+    print("Risk is: " , risk)  # we enter age 0 , it will raise ZeroDivisionError
 
 
 except ValueError:
     print("Invalid Value")
+    
+# We also need to handle ZeroDivisionError, so:
+except ZeroDivisionError:
+    print("Age can not be 0.")
