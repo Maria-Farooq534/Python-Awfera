@@ -32,3 +32,5 @@ person_name("Maria" , "Farooq") #What if we give "Farooq" as first argument and 
 person_name("Farooq" , "Maria") #its output is: Hi Farooq Maria .. to avoid this, 
 #Use keyword arguments
 person_name(last_name="Farooq" ,first_name="Maria") #we have to use it for all arguments
+# calc_cost(total=50, shipping=5, discount=1)
+#In this example , It helps to understand that what actually each value represents.
