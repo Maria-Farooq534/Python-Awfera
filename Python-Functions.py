@@ -22,3 +22,10 @@ def name_age(name, age):  #(name, age) these are positional arguments and their 
     
     
 name_age("Maria" , 23 )
+
+#Keyword Arguments
+def person_name(first_name , last_name):
+    print(f"Hi {first_name} {last_name}")
+    
+    
+person_name("Maria" , "Farooq")
