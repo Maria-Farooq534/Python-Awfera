@@ -15,3 +15,10 @@ def user_greeting(user):
     
     
 user_greeting("Maria")
+
+# Function with multiple parameters
+def name_age(name, age):
+    print(f"{name} is {age} years old.")
+    
+    
+name_age("Maria" , 23 )
