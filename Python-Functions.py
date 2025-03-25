@@ -17,7 +17,7 @@ def user_greeting(user):
 user_greeting("Maria")
 
 # Function with multiple parameters
-def name_age(name, age):
+def name_age(name, age):  #(name, age) these are positional arguments and their order/position matters.
     print(f"{name} is {age} years old.")
     
     
