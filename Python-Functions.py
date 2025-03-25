@@ -28,4 +28,7 @@ def person_name(first_name , last_name):
     print(f"Hi {first_name} {last_name}")
     
     
-person_name("Maria" , "Farooq")
+person_name("Maria" , "Farooq") #What if we give "Farooq" as first argument and then "Maria" as 2nd.
+person_name("Farooq" , "Maria") #its output is: Hi Farooq Maria .. to avoid this, 
+#Use keyword arguments
+person_name(last_name="Farooq" ,first_name="Maria") #we have to use it for all arguments
