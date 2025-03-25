@@ -22,7 +22,8 @@ def emoji_converter(message):
     display_output = ''
     for each_word in splitted_words:
         display_output = display_output + emoji.get(each_word , each_word) + " "
-    return display_output
+    return display_output  #always add 2 empty lines after function definition
+
 
 message = input("> ")
 print(emoji_converter(message))
